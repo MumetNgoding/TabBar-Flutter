@@ -17,7 +17,8 @@ class Camera extends StatelessWidget {
             new Padding(
               padding: new EdgeInsets.all(20.0),
             ),
-            new Icon(Icons.camera, size: 90.0)
+            new Icon(Icons.camera, size: 90.0),
+            new Image.asset("img/camera.jpg"), //add image on local storage
           ],
         ),
       ),

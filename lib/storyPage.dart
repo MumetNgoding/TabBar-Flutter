@@ -17,7 +17,8 @@ class Story extends StatelessWidget {
             new Padding(
               padding: new EdgeInsets.all(20.0),
             ),
-            new Icon(Icons.play_arrow, size: 90.0)
+            new Icon(Icons.play_arrow, size: 90.0),
+            new Image.network("https://bin.snmmd.nl/m/ps3ypu6uih0m.png/story.png", width: 200.0)
           ],
         ),
       ),

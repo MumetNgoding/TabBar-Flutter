@@ -17,7 +17,8 @@ class Chat extends StatelessWidget {
             new Padding(
               padding: new EdgeInsets.all(20.0),
             ),
-            new Icon(Icons.chat, size: 90.0)
+            new Icon(Icons.chat, size: 90.0),
+            new Image.asset("img/chat.png"), //add image on local storage
           ],
         ),
       ),
